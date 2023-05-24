@@ -5,6 +5,7 @@ function createRobot(coordinates, direction) {
   const advance = () => {
     switch (orientation) {
       case 'NORTH':
+
         if (y < 10) y++;
         else throw new Error('Fuera de los limites');
         break;
@@ -44,7 +45,7 @@ function createRobot(coordinates, direction) {
     switch (orientation) {
       case 'NORTH':
         orientation = 'WEST';
-        break;
+        break;                                                                                                                                                                                                                                                                                                  
       case 'EAST':
         orientation = 'NORTH';
         break;
@@ -91,4 +92,4 @@ function createRobot(coordinates, direction) {
 
 module.exports = {createRobot};
 
- console.log(createRobot([2, 3], 'NORTH').getPosition());
+//  console.log(createRobot([2, 3], 'NORTH').getPosition());
