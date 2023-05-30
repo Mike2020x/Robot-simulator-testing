@@ -28,6 +28,8 @@ Users should be able to:
 
 ![](./screenshot.jpg)
 
+![](./screenshot2.jpg)
+
 
 ### Built with
 
